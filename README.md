@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nova Tech - SaaS Landing Page Demo
+
+A futuristic SaaS landing page for Nova Tech, an AI-powered project management tool. This demo showcases modern web development techniques and best practices.
+
+## Features
+
+- **Modern Design**: Dark futuristic aesthetic with Tailwind CSS
+- **Interactive Elements**: Animated 3D globe (Three.js) and smooth transitions (Framer Motion)
+- **Responsive Layout**: Optimized for all device sizes
+- **Performance Optimized**: Dynamic imports and code splitting
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS 4
+- **3D Rendering**: Three.js
+- **Animations**: Framer Motion
+- **Icons**: React Icons
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.x or higher
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd nova-tech
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-## Learn More
+3. Start the development server:
+   ```
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment to Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
 
-## Deploy on Vercel
+2. Visit [Vercel](https://vercel.com) and sign in
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Import your repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Configure the project settings if needed
+
+5. Deploy
+
+   Alternatively, you can use the Vercel CLI:
+   ```
+   npm install -g vercel
+   vercel login
+   vercel --prod
+   ```
+
+## Project Structure
+
+- `src/app/page.tsx` - Homepage with hero section, features, and pricing
+- `src/app/contact/page.tsx` - Contact form
+- `src/components/` - Reusable UI components
+- `src/app/globals.css` - Global styles and Tailwind directives
+
+## Credits
+
+Designed by [Luke Eddy](https://luke-eddy.com) as part of portfolio showcase.
